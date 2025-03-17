@@ -1,0 +1,15 @@
+.flex{
+    display: flex;
+}
+.flex div{
+    width: 80px;
+    height: 80px;
+    border: black solid 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex div:active{
+    border: 3px solid black;
+    background-color: yellow;
+}

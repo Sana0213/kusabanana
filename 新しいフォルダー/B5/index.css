@@ -1,0 +1,14 @@
+div:nth-child(1)::first-letter {
+    color: #ff0000;
+    text-transform: uppercase;
+}
+
+div:nth-child(2)::first-letter {
+    color: #00ff00;
+    text-transform: uppercase;
+}
+
+div:nth-child(3)::first-letter {
+    color: #0000ff;
+    text-transform: uppercase;
+}

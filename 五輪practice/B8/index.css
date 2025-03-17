@@ -1,0 +1,45 @@
+.all{
+    width: 600px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.circle1{
+    background-color: #19A68C;
+    animation: change 4s infinite;
+}
+.circle2{
+    background-color: #F63D3A;
+    animation: change 4s infinite 1s;
+}
+.circle3{
+    background-color: #FDA543;
+    animation: change 4s infinite 2s;
+}
+.circle4{
+    background-color: #193B48;
+    animation: change 4s infinite 3s;
+}
+@keyframes change{
+    0%{
+        scale: 1;
+    }
+
+    20%{
+        scale: 1.2;
+    }
+
+    40%{
+        scale: 1;
+    }
+
+    100%{
+        scale: 1;
+    }
+}

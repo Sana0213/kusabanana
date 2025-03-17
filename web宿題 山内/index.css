@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.all{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 80px;
+    
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+}
+.aaa{
+    display: flex;
+    background-color: red;
+}
+.all li a{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+li a:hover{
+    background-color: yellow;
+    color: black;
+}
+li{
+    width: 200px;
+    height: 100%;
+    display: flex;
+
+}
+
+.drop li{
+   background-color: red;
+}
+.drop>li>a{
+    text-decoration: none;
+    color: white;
+}
+.drop>li>a:hover{
+    background-color: yellow;
+    color: black;
+}
+.drop{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    
+}
+.ser:hover>.drop{
+    display: block;
+}
+.ser{
+    position: relative;
+}

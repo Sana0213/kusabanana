@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* body{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    min-height: 100dvh;
+} */
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(128, 128, 128, 0.438);
+    height: 80px;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+h1{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-size: 20px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+li{
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navi-item:hover{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+}
+
+main{
+    /* flex-grow: 1;
+    position: relative;
+    width: 100%;
+    height: 100%; */
+}
+.key-visual{
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+.key-visual img{
+    opacity: 0;
+    position: absolute;
+    transition: opacity 1s ease-in-out;
+}
+.key-visual img{
+    opacity: 1;
+}
+.key-visual .Caesar {
+    animation-delay: 0s;
+}
+.key-visual .Lin {
+    /* animation: change-img-anim 30s infinite; */
+    animation: change-img-anim-first 5s infinite;
+    /* animation-delay: 3s; */
+}
+@keyframes change-img-anim-first {
+    0% {opacity: 1; }
+    50% {opacity: 0; }
+    100% {opacity: 1; }
+}
+@keyframes change-img-anim {
+    /* 0% {opacity: 0; }
+    30% {opacity: 1; }
+    36% {opacity: 1; }
+    45% {opacity: 0; }
+
+    100% {opacity: 0; } */
+}
+
+.Lin{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Caesar{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;  */
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: red;
+    transform: translate(-50% ,-50%);
+}
+.content{
+    position: relative;
+    height: 500px;
+    max-width: 1000px;
+}
+footer{
+    background-color: rgba(128, 128, 128, 0.39);
+}
+.under{
+    padding: 20px;
+}
+.web{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width:430px) {
+    .navi-item{
+        display: none;
+    }
+}

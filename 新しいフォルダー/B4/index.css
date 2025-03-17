@@ -1,0 +1,24 @@
+.i{
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(45deg, red, blue);
+    background-size: 200%;
+    animation: yoshidaniki 4s infinite;
+}
+@keyframes yoshidaniki{
+    25%{
+        background-position: 0 50%;
+    }
+
+    50%{
+        background-position: 50% 50%;
+    }
+
+    75%{
+        background-position: 0 50%;
+    }
+
+    100%{
+        background-position: 0 0;
+    }
+}

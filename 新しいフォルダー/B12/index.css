@@ -1,0 +1,20 @@
+.all{
+    width: 400px;
+    height: 400px;
+    background-image: conic-gradient(
+        black 0 70%, grey 70% 100%
+    );
+    border-radius: 50%;
+    position: relative;
+}
+.th{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+.se{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    color: white;
+}

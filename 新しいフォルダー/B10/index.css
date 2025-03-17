@@ -1,0 +1,13 @@
+.maru{
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    border-radius: 50%;
+    animation: maruugo 2s infinite;
+}
+
+@keyframes maruugo{
+    50%{
+        margin-top: 400px;
+    }
+}

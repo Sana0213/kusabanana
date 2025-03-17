@@ -1,0 +1,219 @@
+*
+ {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(255, 243, 106);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.gaiyou a {
+    padding: 30px;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logo {
+    height: 98px;
+}
+
+.haikeisyasinn {
+    width: 100%;
+}
+
+.box {
+    height: 100.5vh;
+    overflow: hidden;
+    font-weight: bold;
+}
+
+.header {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    translate: -50% -50%;
+    font-size: 250%;
+    padding: 2% 4%;
+    background-color: rgba(240, 248, 255, 0.655);
+
+}
+
+.n {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.new {
+    width: 60%;
+    margin-top: 80px;
+}
+
+.NEWS {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.NEWS h2 {
+    font-size: 40px;
+    padding-right: 15px;
+}
+
+.oshirase {
+    border: #000 1px solid;
+    border-radius: 100px;
+}
+
+.shinntyaku {
+    width: 100%;
+}
+
+.shin {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.shin div {
+    width: 20%;
+}
+
+.ichiran {
+    border: #000 1px solid;
+    border-radius: 100px;
+    padding: 15px 30px;
+    margin: 80px;
+}
+
+.c {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(231, 255, 228);
+    padding-bottom: 90px;
+}
+
+.con {
+    width: 60%;
+    margin-top: 80px;
+}
+
+.CONTENT {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.CONTENT H4 {
+    font-size: 40px;
+    padding-right: 15px;
+}
+
+.detail {
+    border: #000 1px solid;
+    border-radius: 100px;
+}
+
+.introduction {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+
+.introduction>div{
+    width: 40%;
+    position: relative;
+}
+
+.gakkasyashinn,
+.bukatsudousyashinn {
+    width: 100%;
+}
+
+.gakkasyoukai{
+    background-color: rgba(243, 255, 72, 0.763);
+    font-weight: bold;
+    font-size: 25px;
+    width: 70%;
+    padding: 20px 0 0 20px;
+    position: absolute;
+    top: 75%;
+    left: 40%;
+}
+
+.De{
+    translate: 0 -10px;
+    font-size: 20px;
+}
+
+.bukatsudousyoukai{
+    background-color: rgba(243, 255, 72, 0.763);
+    font-weight: bold;
+    font-size: 25px;
+    width: 70%;
+    padding: 20px 0 0 20px;
+    position: absolute;
+    top: 75%;
+    left: 40%;
+}
+
+.Cl{
+    translate: 0 -10px;
+    font-size: 20px;
+}
+
+.a{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ace{
+    width: 60%;
+    margin-top: 80px;
+}
+
+.ACCESS{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.ACCESS H5{
+    font-size: 40px;
+    padding-right: 15px;
+}
+
+.aks{
+    border: #000 1px solid;
+    border-radius: 100px;
+}
+
+.map{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 0 80px 0;
+}
+
+footer{
+    background-color: #000;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+}
+

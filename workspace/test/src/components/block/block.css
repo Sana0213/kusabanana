@@ -1,0 +1,44 @@
+.block{
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: rgb(212, 212, 212);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;    
+}
+.block-2{
+    background-color: tan;
+}
+.block-4{
+    background-color: lightblue;
+}
+.block-8{
+    background-color: lightcoral;
+}
+.block-16{
+    background-color: lightgreen;
+}
+.block-32{
+    background-color: lightsalmon;
+}
+.block-64{
+    background-color: lightseagreen;
+}
+.block-128{
+    background-color: gold;
+}
+.block-256{
+    background-color: plum;
+}
+.block-512{
+    background-color: greenyellow;
+}
+.block-1024{
+    background-color: lightsalmon;
+}
+.block-2948{
+    background-color: lightsalmon;
+}

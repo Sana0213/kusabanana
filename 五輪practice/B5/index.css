@@ -1,0 +1,92 @@
+.box{
+    width: 700px;
+    height: 200px;
+}
+.i{
+    display: flex;
+    align-items: center;
+}
+.r{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 20px;
+    animation: r-animation 8s infinite;
+}
+.y{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    animation: y-animation 8s infinite;
+}
+.b{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 20px;
+    animation: b-animation 8s infinite;
+}
+@keyframes r-animation {
+
+    0%{
+        opacity: 20%;
+    }
+
+    62.4%{
+        opacity: 20%;
+    }
+
+    62.5%{
+        opacity: 100%;
+    }
+
+    100%{
+        opacity: 100%;
+    }
+
+}
+@keyframes y-animation {
+    0%{
+        opacity: 20%;
+    }
+
+    49.9%{
+        opacity: 20%;
+    }
+
+    50.0%{
+        opacity: 100%;
+    }
+
+    62.4%{
+        opacity: 100%;
+    }
+
+    62.5%{
+        opacity: 20%;
+    }
+
+    100%{
+        opacity: 20%;
+    }
+}
+@keyframes b-animation {
+    49.9%{
+        opacity: 100%;
+    }
+
+    50.0%{
+        opacity: 20%;
+    }
+
+    100%{
+        opacity: 20%;
+    }
+}
